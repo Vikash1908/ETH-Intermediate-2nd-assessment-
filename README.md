@@ -316,3 +316,13 @@ export default function HomePage() {
 1. **Install the required dependencies:**
    ```bash
    npm i
+2. **Command to run the code:**
+   npm run dev
+
+## Authors
+
+- **Vikash Kumar Singh**
+
+## License
+
+This project is licensed under Vikash Kumar Singh -
