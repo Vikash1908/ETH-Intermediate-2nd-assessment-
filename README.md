@@ -1,23 +1,24 @@
-# SimpleContract
+<h1>SimpleContract</h1>
 
 This Solidity program demonstrates the use of function and fronend and connection to the wallets and accounts.
 
-## Description
+<h2>Description</h2>
 
 SimpleContract is an Ethereum smart contract implemented in Solidity. It showcases basic functionalities such as data storage, string manipulation, and owner control using events and functions.
 
-## Getting Started
+<h2>Getting Started</h2>
 
-### Prerequisites
+<h3>Prerequisites</h3>
 
 - Node.js and npm installed
 - MetaMask extension installed in your browser
 - A test Ethereum network (like Rinkeby or Hardhat local network)
 
-### Smart Contract
+<div>
+<h3>Smart Contract</h3>
 
 The smart contract `SimpleContract.sol` provides functionalities to setData, setName and changeOwner.
-
+<div>
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -56,9 +57,12 @@ contract SimpleContract {
         return (data, name, owner);
     }
 }
+</div>
+</div>
 
-### Frontend
-
+<div>
+<h3>Frontend</h3>
+<div>
 The frontend allows users to interact with the smart contract. It provides functionalities to connect a wallet, setDetails, getDetails.
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
@@ -213,9 +217,12 @@ export default function HomePage() {
     </main>
   );
 }
+</div>
+</div>
 
-### Deploying the Smart Contract
-
+<div>
+<h3>Deploying the Smart Contract</h3>
+<div>
 To deploy the smart contract, you can use Hardhat, a development environment for Ethereum software. But before deploying the smart contact you need to create the node by using the command 'npx hardhat node'. Command to deploy the contract is 'npx hardhat run --network localhost scripts/deploy.js'
 const { ethers } = require("hardhat");
 
@@ -235,8 +242,10 @@ main()
     console.error(error);
     process.exit(1);
   });
+  </div>
+  </div>
 
-### Running the Frontend
+<h4>Running the Frontend</h4>
 
 1. Command to run the code:
     ```sh
