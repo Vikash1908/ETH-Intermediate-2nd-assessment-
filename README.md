@@ -255,10 +255,10 @@ main()
     After this, the project will be running on your localhost. 
     Typically at http://localhost:3000/
 
-    ## Authors
+<h2>Authors</h2>
 
 Vikash Kumar Singh
 
-## License
+<h2>License</h2>
 
 This project is licensed under Vikash Kumar Singh.
